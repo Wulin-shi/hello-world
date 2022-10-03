@@ -1,0 +1,58 @@
+<!DECTYPE htm>
+<html>
+  <head>
+    <style>
+    body{
+      background-color:pink;
+    }
+      *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+      }
+      .header{
+        padding:0 70px;
+        display:flex;
+        align-content: center;
+        justify-content: space-between;
+        margin-top:20px
+        margin-bottom:20px;
+        color: crimson;
+      }
+      .nav{
+        display:flex;
+        align-content:center;
+        justify-content:center;
+        gap:60px;
+        list-style-type:none;
+      }
+      
+      .nav li a{
+        text-decoration: none;
+        font-size:1.2rem;
+        color:crimson;
+      } 
+      
+    </style>
+   
+    <div class="header">
+      <h2 class="logo">freeCodeCamp
+      </h2>
+      <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Serices</a></li>
+        <li><a href="">Contact</a></li>
+      </ul> 
+    </div>
+ 
+    <p>
+      This is a <span class="crimson">crimson text</span>within black texts.
+      This is an <span class="indigo">indigo text</span>within others, 
+      and this is an <span class="orange">orange text</span>within other texts.
+       
+    </p> 
+ 
+  </head>
+  
+</html>
