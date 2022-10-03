@@ -1,0 +1,66 @@
+<!DECTYPE html>
+<html>
+<head>
+
+<style>
+body{
+   background-color:lightgray;
+}
+h1{
+   color:orange;
+   text-align:center;
+   font-family:"Times New Roman";
+   font-size:40px;
+p{
+  font-family:"Times New Roman";
+   font-size:30px;
+   color:orange;
+}
+
+p{
+  font-family:"Contact the author of this papge";
+    font-size:15;
+    color:red;
+}
+</style>
+</head>
+
+<script>
+function displayDate(){
+  document,getElementById("demo"), innerHTML=Date();
+}
+</script>
+  
+
+<body>
+<h1> This is my first system
+<p id="demo"> Web page here</P>
+
+<button type="button" onclick="displayDatec()">Date</button>
+
+  
+<article>
+  <h1>How to be a wizard</h1>
+  <hr>
+  <ol>
+    <li>Grow a long, majestic beard.</li>
+    <li>Wear a tall, pointed hat.</li>
+    <li>Have I mentioned the beard?</li>
+  </ol>
+    
+<footer>
+      <address>
+  <p>Contact the author of this papge:</p>
+  
+  <address>
+    <a href="mailto:jim@rock.com">jim@rock.com</a>
+  <br>
+    <a href="tel:+13115552368">(311)555-2368</a>
+  </address>
+</address>
+      <p>@2018 Gandalf</p>
+</footer>
+</article>
+
+</body>
+</html>
