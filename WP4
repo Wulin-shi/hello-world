@@ -1,0 +1,91 @@
+<!DECTYPE html>
+<html>
+  <head>
+                                                                            
+  <style>
+    body{
+      background-color:lightgray;
+    }
+    *{
+      margin:8;
+      padding:0;
+      box-sizing:Content-box;
+    }
+    
+    .header{
+      padding:0 50px;
+      display:flex;
+      align-content:center;
+      justify-content:space-between;
+      margin-top:30px;
+      margin-bottom:20px;
+      color:darkblue;
+    }
+    
+      .nav{
+        display:flex;
+        align-content:center;
+        justify-content:center;
+        gap:50px;
+        list-style-type:none;
+      }
+      
+      .nav li a{
+        text-decoration:none;
+        font-size:1.5rem;
+        color:orange;
+      }
+    
+      .nav
+        button-color:red
+    }
+    
+    footer{
+      padding:10px*20px;
+      background:#666;
+      color:orange;
+    }
+    
+ 
+    </style>
+    
+    <div class="header">
+      <h2 class="logo">NYCA
+      </h2>
+      <u1 class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Serices</a></li>
+        <li><a href="">Contact</a></li>
+        <button type="button" onclick="displayDonation()">Donation</button></a></li>
+      </u1>
+    </div>
+  </head>
+  
+  <body>
+    <hi>Please reach us at:</hi>
+    
+    <ul>
+      <li><a href="https://www.nycau.org">Website</a></li>
+      <li><a href="mailto:info@nycau.org">Email</a></li>
+      <li><a href="tel:8001234567">Tel</a></li>
+    </ul>
+    
+   
+  <address>
+   <p>Mozilla Foundation<br>
+    1981 Landings Drive<br>
+    Building K<br>
+    Mountain View, CA94043-0801<br>
+    USA
+   </p> 
+    </address>
+
+  <footer>  
+      <p>@2022 NYCA</p>
+</footer>
+
+
+</body>
+
+</html>
